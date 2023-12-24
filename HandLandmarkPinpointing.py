@@ -7,7 +7,7 @@ cap = cv2.VideoCapture(0)
 prevTime = 0
 currTime = 0
 
-detector = htm.handDectector()
+detector = htm.HandDectector()
 
 while True:
     # running webcam
