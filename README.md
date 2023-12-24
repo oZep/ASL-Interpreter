@@ -1,4 +1,4 @@
-# HandTracking
+# HandTracking (ASL Interpreter)
 
 [23/12/2023] - Present
 
