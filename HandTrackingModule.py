@@ -57,7 +57,7 @@ class handDectector():
                 lmList.append([id, cx, cy])
                 # drawing circle over hand landmark
                 if draw:
-                    cv2.circle(img, (cx,cy), 16, (0,255,255), cv2.FILLED)
+                    cv2.circle(img, (cx,cy), 11, (0,255,255), cv2.FILLED)
 
         return lmList
 
