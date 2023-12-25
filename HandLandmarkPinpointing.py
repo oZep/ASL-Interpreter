@@ -24,7 +24,7 @@ while True:
     if letter != -1 and letter != '' and letter != word:
         word = letter
 
-
+    #print(letter)
 
     print(word)
 
