@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="180f3556-3129-45a6-9250-067f82570a0d" name="Changes" comment="changed values">
-      <change afterPath="$PROJECT_DIR$/ASLHandDecoder.py" afterDir="false" />
+    <list default="true" id="180f3556-3129-45a6-9250-067f82570a0d" name="Changes" comment="found the shortest distance between landmarks and mapped them">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASLHandDecoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASLHandDecoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HandLandmarkPinpointing.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandLandmarkPinpointing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandTrackingModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandTrackingModule.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.HandLandmarkPinpointing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HandTrackigModule.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HandTrackingModule.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TrackingBase.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ASLHandDecoder.executor": "Run",
+    "Python.HandLandmarkPinpointing.executor": "Run",
+    "Python.HandTrackigModule.executor": "Run",
+    "Python.HandTrackingModule.executor": "Run",
+    "Python.TrackingBase.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703389123394</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="found the shortest distance between landmarks and mapped them">
+      <option name="closed" value="true" />
+      <created>1703457262303</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703457262303</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +159,8 @@
     <MESSAGE value="hand tracking + drawing hand connections" />
     <MESSAGE value="hand tracking class created" />
     <MESSAGE value="changed values" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed values" />
+    <MESSAGE value="found the shortest distance between landmarks and mapped them" />
+    <option name="LAST_COMMIT_MESSAGE" value="found the shortest distance between landmarks and mapped them" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
