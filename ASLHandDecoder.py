@@ -63,7 +63,6 @@ class ASLDecoder:
         # will optamized to take half as less passes through skipping previously mapped characters
         return distanceMap
 
-
     def getSign(self, landmarks):
         closestLandmark = self.findNextLandmark(landmarks)
         for option, key in enumerate(list(HAND_SIGNS.keys())):
