@@ -21,12 +21,13 @@ while True:
     img = detector.findHands(img)
     lmList = detector.findPosition(img)
     letter = reader.getSign(lmList)
-    if letter != -1 and letter != '' and letter != word:
-        word = letter
+    # --- displaying characters ---
+    #if letter != -1 and letter != '' and letter != word:
+    #    word = letter
+    #print(word)
 
-
-
-    print(word)
+    # --- Gathering info ---
+    print(letter)
 
     cv2.putText(img, str(word), (600, 120), cv2.FONT_HERSHEY_DUPLEX, 3, (255, 0, 255), 4)
 
