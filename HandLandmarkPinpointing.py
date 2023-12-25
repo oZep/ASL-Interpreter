@@ -13,18 +13,22 @@ reader = asl.ASLDecoder()
 
 word = ''
 
+count = 1000
+
 while True:
     # running webcam
     success, img = cap.read()
     img = detector.findHands(img)
     lmList = detector.findPosition(img)
     letter = reader.getSign(lmList)
-    if letter != -1:
-        word += letter
+    if letter != -1 and letter != '' and letter != word:
+        word = letter
+
+
 
     print(word)
 
-    cv2.putText(img, str(word), (30, 80), cv2.FONT_HERSHEY_DUPLEX, 3, (255, 0, 255), 4)
+    cv2.putText(img, str(word), (600, 120), cv2.FONT_HERSHEY_DUPLEX, 3, (255, 0, 255), 4)
 
     # display fps
     # display fps
