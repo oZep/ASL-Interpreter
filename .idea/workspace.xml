@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="180f3556-3129-45a6-9250-067f82570a0d" name="Changes" comment="hand tracking + drawing hand connections">
-      <change afterPath="$PROJECT_DIR$/HandLandmarkPinpointing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HandTrackigModule.py" afterDir="false" />
+    <list default="true" id="180f3556-3129-45a6-9250-067f82570a0d" name="Changes" comment="found the shortest distance between landmarks and mapped them">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ASLHandDecoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASLHandDecoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandLandmarkPinpointing.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandLandmarkPinpointing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "oZep"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;oZep&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -38,9 +38,9 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2Zy3hs3ADn1pryTIHPH3aqFH64C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,7 +49,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.ASLHandDecoder.executor": "Run",
+    "Python.HandLandmarkPinpointing.executor": "Run",
     "Python.HandTrackigModule.executor": "Run",
+    "Python.HandTrackingModule.executor": "Run",
     "Python.TrackingBase.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -105,19 +108,65 @@
       <option name="project" value="LOCAL" />
       <updated>1703385049713</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hand tracking class created">
+      <option name="closed" value="true" />
+      <created>1703388376508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703388376508</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hand tracking class created">
+      <option name="closed" value="true" />
+      <created>1703388464547</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703388464547</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed values">
+      <option name="closed" value="true" />
+      <created>1703389123394</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703389123394</updated>
+    </task>
+    <task id="LOCAL-00008" summary="found the shortest distance between landmarks and mapped them">
+      <option name="closed" value="true" />
+      <created>1703457262303</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703457262303</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting new project" />
     <MESSAGE value="hand tracking + drawing hand connections" />
-    <option name="LAST_COMMIT_MESSAGE" value="hand tracking + drawing hand connections" />
+    <MESSAGE value="hand tracking class created" />
+    <MESSAGE value="changed values" />
+    <MESSAGE value="found the shortest distance between landmarks and mapped them" />
+    <option name="LAST_COMMIT_MESSAGE" value="found the shortest distance between landmarks and mapped them" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/HandTrackigModule.py</url>
+          <url>file://$PROJECT_DIR$/HandTrackingModule.py</url>
           <line>70</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

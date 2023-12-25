@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import time
 
-class handDectector():
+class HandDectector():
     def __init__(self, mode=False, maxHands=2, complexitiy= 1, detectionConf = 0.5, trackConf = 0.5 ):
         '''
         :param mode: bool
@@ -40,7 +40,7 @@ class handDectector():
 
         return img
 
-    def findPosition(self, img, handNum=0, draw=True):
+    def findPosition(self, img, mark=0, draw=True):
         '''
         :param img:  cap.read()
         :param HandNum: int
@@ -50,14 +50,14 @@ class handDectector():
         lmList = []
 
         if self.results.multi_hand_landmarks:
-            myHand = self.results.multi_hand_landmarks[handNum]
+            myHand = self.results.multi_hand_landmarks[mark]
             for id, lm in enumerate(myHand.landmark):
                 h, w, c = img.shape
                 cx, cy = int(lm.x * w), int(lm.y * h)
                 lmList.append([id, cx, cy])
                 # drawing circle over hand landmark
                 if draw:
-                    cv2.circle(img, (cx,cy), 16, (0,255,255), cv2.FILLED)
+                    cv2.circle(img, (cx,cy), 11, (0,255,255), cv2.FILLED)
 
         return lmList
 
@@ -66,13 +66,15 @@ def main():
     prevTime = 0
     currTime = 0
 
-    detector = handDectector()
+    detector = HandDectector()
 
     while True:
         # running webcam
         success, img = cap.read()
         img = detector.findHands(img)
         lmList = detector.findPosition(img)
+        if lmList != 0:
+            print(lmList)
 
         # display fps
         currTime = time.time()
