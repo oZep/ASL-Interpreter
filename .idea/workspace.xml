@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="180f3556-3129-45a6-9250-067f82570a0d" name="Changes" comment="changed how i displayed letters">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASLHandDecoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASLHandDecoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandLandmarkPinpointing.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandLandmarkPinpointing.py" afterDir="false" />
-    </list>
+    <list default="true" id="180f3556-3129-45a6-9250-067f82570a0d" name="Changes" comment="B is done!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703473628341</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="B is done!">
+      <option name="closed" value="true" />
+      <created>1703523519507</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703523519507</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +182,8 @@
     <MESSAGE value="found the shortest distance between landmarks and mapped them" />
     <MESSAGE value="we got the first LETTTER!!!!" />
     <MESSAGE value="changed how i displayed letters" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed how i displayed letters" />
+    <MESSAGE value="B is done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="B is done!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
