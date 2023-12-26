@@ -22,12 +22,12 @@ while True:
     lmList = detector.findPosition(img)
     letter = reader.getSign(lmList)
     # --- displaying characters ---
-    #if letter != -1 and letter != '' and letter != word:
-    #    word = letter
-    #print(word)
+    if letter != -1 and letter != '' and letter != word:
+        word = letter
+    print(word)
 
     # --- Gathering info ---
-    print(letter)
+    #print(letter)
 
     cv2.putText(img, str(word), (600, 120), cv2.FONT_HERSHEY_DUPLEX, 3, (255, 0, 255), 4)
 
