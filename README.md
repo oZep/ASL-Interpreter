@@ -4,6 +4,8 @@
 
 - Using OpenCV and MediaPy
 
+https://github.com/oZep/HandTracking/assets/97713154/899c24fd-c1d9-43c3-a08b-800a034008db
+
 
 # Main Idea
 <img width="1073" alt="hand-landmarks" src="https://github.com/oZep/HandTracking/assets/97713154/cd23c2fd-d38d-4bfe-b095-496a580b42c3">
