@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="180f3556-3129-45a6-9250-067f82570a0d" name="Changes" comment=" k, l m are done">
+    <list default="true" id="180f3556-3129-45a6-9250-067f82570a0d" name="Changes" comment="n, o, p, q are done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASLHandDecoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASLHandDecoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandLandmarkPinpointing.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandLandmarkPinpointing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703529688510</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="n, o, p, q are done">
+      <option name="closed" value="true" />
+      <created>1703530507887</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1703530507887</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,7 +275,8 @@
     <MESSAGE value="testing first 8 of the alphabet" />
     <MESSAGE value="j is done" />
     <MESSAGE value=" k, l m are done" />
-    <option name="LAST_COMMIT_MESSAGE" value=" k, l m are done" />
+    <MESSAGE value="n, o, p, q are done" />
+    <option name="LAST_COMMIT_MESSAGE" value="n, o, p, q are done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
