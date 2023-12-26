@@ -93,6 +93,3 @@ class ASLDecoder:
         return -1
         # -- finding landmarks
         #return closestLandmark
-
-
-
