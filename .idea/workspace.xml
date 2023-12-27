@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="180f3556-3129-45a6-9250-067f82570a0d" name="Changes" comment="n, o, p, q are done">
+    <list default="true" id="180f3556-3129-45a6-9250-067f82570a0d" name="Changes" comment="added orientation check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ASLHandDecoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/ASLHandDecoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HandLandmarkPinpointing.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandLandmarkPinpointing.py" afterDir="false" />
@@ -244,7 +244,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703530507887</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added orientation">
+      <option name="closed" value="true" />
+      <created>1703635085650</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1703635085650</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added orientation check">
+      <option name="closed" value="true" />
+      <created>1703635113469</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1703635113469</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +292,9 @@
     <MESSAGE value="j is done" />
     <MESSAGE value=" k, l m are done" />
     <MESSAGE value="n, o, p, q are done" />
-    <option name="LAST_COMMIT_MESSAGE" value="n, o, p, q are done" />
+    <MESSAGE value="added orientation" />
+    <MESSAGE value="added orientation check" />
+    <option name="LAST_COMMIT_MESSAGE" value="added orientation check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
